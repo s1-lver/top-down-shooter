@@ -17,6 +17,16 @@
 	xspeed = lengthdir_x(_spd, move_dir);
 	yspeed = lengthdir_y(_spd, move_dir);
 	
+	// Check Collisions
+	if place_meeting(x + xspeed, y, oEntityWall)
+	{
+		xspeed = 0;	
+	}
+	if place_meeting(x, y + yspeed, oEntityWall)
+	{
+		yspeed = 0;
+	}
+	
 	x += xspeed;
 	y += yspeed;
 #endregion

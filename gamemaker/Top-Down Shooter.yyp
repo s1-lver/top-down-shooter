@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":1,
+  "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -20,9 +20,13 @@
   },
   "name":"Top-Down Shooter",
   "resources":[
+    {"id":{"name":"oEntityWall","path":"objects/oEntityWall/oEntityWall.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oProjectileWall","path":"objects/oProjectileWall/oProjectileWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sEntityWall","path":"sprites/sEntityWall/sEntityWall.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sProjectileWall","path":"sprites/sProjectileWall/sProjectileWall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
