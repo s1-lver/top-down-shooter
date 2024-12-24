@@ -26,6 +26,8 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oProjectileWall","path":"objects/oProjectileWall/oProjectileWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"player_module","path":"scripts/player_module/player_module.yy",},},
+    {"id":{"name":"sEnergyRifle","path":"sprites/sEnergyRifle/sEnergyRifle.yy",},},
     {"id":{"name":"sEntityWall","path":"sprites/sEntityWall/sEntityWall.yy",},},
     {"id":{"name":"sPlayerDown","path":"sprites/sPlayerDown/sPlayerDown.yy",},},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
