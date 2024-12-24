@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":3,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Player/Sprites.yy",
+    "name":"Weapons",
+    "path":"folders/Weapons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

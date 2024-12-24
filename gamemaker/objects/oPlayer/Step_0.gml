@@ -3,6 +3,7 @@
 	var right_key = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	var up_key = keyboard_check(vk_up) || keyboard_check(ord("W"));
 	var down_key = keyboard_check(vk_down) || keyboard_check(ord("S"));
+	var shoot_key = mouse_check_button(mb_left);
 #endregion
 
 #region MOVEMENT
@@ -32,7 +33,7 @@
 	y += yspeed;
 #endregion
 
-#region AIM CONTROl
+#region AIM CONTROL
 	center_y = y + center_y_offset;
 	
 	aim_dir = point_direction(x, center_y, mouse_x, mouse_y);
@@ -45,4 +46,11 @@
 	if (_spd = 0) { image_index = 0; }
 	
 	sprite_index = sprite[face];
+#endregion
+
+#region	SHOOTING CONTROL
+	if shoot_key
+	{
+		spawn_bullet(BulletTypes.EnergyBullet, x, center_y, aim_dir);
+	}
 #endregion

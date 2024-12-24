@@ -21,7 +21,7 @@
 		sPlayerDown
 	];
 	
-// DATA
+// WEAPON DATA
 weapon = {
 	name : "Energy Rifle",
 	sprite : sEnergyRifle

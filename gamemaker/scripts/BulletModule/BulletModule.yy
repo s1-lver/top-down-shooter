@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"player_module",
+  "%Name":"BulletModule",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"player_module",
+  "name":"BulletModule",
   "parent":{
-    "name":"Player",
-    "path":"folders/Player.yy",
+    "name":"Weapons",
+    "path":"folders/Weapons.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
