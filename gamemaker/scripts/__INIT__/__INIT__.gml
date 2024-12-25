@@ -1,3 +1,2 @@
-init_BulletModule();
-init_weaponModule();
+init_WeaponModule();
 init_PlayerModule();
