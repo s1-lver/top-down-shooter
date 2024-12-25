@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlayerModule",
+  "%Name":"WeaponModule",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerModule",
+  "name":"WeaponModule",
   "parent":{
-    "name":"Player",
-    "path":"folders/Player.yy",
+    "name":"Weapons",
+    "path":"folders/Weapons.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

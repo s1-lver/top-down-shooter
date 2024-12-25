@@ -49,8 +49,15 @@
 #endregion
 
 #region	SHOOTING CONTROL
-	if shoot_key
+	if shoot_timer > 0 { shoot_timer--; }
+
+	if shoot_key && shoot_timer <= 0
 	{
-		spawn_bullet(BulletTypes.EnergyBullet, x, center_y, aim_dir);
-	}
+		shoot_timer = weapon.cooldown;
+		
+		var _xOffset = lengthdir_x(weapon.length + weapon_offset_dist, aim_dir);
+		var _yOffset = lengthdir_y(weapon.length + weapon_offset_dist, aim_dir);
+		
+		weapon.shoot(x + _xOffset, center_y + _yOffset, aim_dir);
+	} 
 #endregion

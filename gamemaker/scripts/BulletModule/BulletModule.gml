@@ -25,7 +25,6 @@ function spawn_bullet(_type, _xPos, _yPos, _dir) {
 		dir = _dir;
 		spd = _type.spd;
 	}
-	
 
 	return new_bullet;
 }

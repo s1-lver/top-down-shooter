@@ -22,7 +22,5 @@
 	];
 	
 // WEAPON DATA
-weapon = {
-	name : "Energy Rifle",
-	sprite : sEnergyRifle
-};
+weapon = WeaponTypes.EnergyRifle;
+shoot_timer = 0;
