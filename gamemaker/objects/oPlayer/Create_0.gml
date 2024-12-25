@@ -23,7 +23,8 @@
 	];
 #endregion
 	
-#region WEAPON
-	weapon = WeaponTypes.EnergyPistol;
+#region PLAYER DATA
+	selected_weapon = 0;
+	weapon = PlayerWeapons[selected_weapon];
 	shoot_timer = 0;
 #endregion

@@ -4,6 +4,7 @@
 	var up_key = keyboard_check(vk_up) || keyboard_check(ord("W"));
 	var down_key = keyboard_check(vk_down) || keyboard_check(ord("S"));
 	var shoot_key = mouse_check_button(mb_left);
+	var swap_key_pressed = mouse_check_button_pressed(mb_right);
 #endregion
 
 #region MOVEMENT
@@ -46,6 +47,21 @@
 	if (_spd = 0) { image_index = 0; }
 	
 	sprite_index = sprite[face];
+#endregion
+
+#region WEAPON SWAPPING
+	var _playerWeapons = PlayerWeapons;
+	
+	if swap_key_pressed
+	{
+		selected_weapon++;
+		if selected_weapon >= array_length(PlayerWeapons)
+		{
+			selected_weapon = 0;	
+		}
+		
+		weapon = _playerWeapons[selected_weapon];
+	}
 #endregion
 
 #region	SHOOTING CONTROL
