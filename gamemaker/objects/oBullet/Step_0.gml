@@ -4,6 +4,8 @@ yspeed = lengthdir_y(spd, dir);
 x += xspeed;
 y += yspeed;
 
+image_angle = dir;
+
 if destroy { instance_destroy(); }
 
 #region DESTRUCTION CHECK

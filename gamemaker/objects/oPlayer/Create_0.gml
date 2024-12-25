@@ -1,11 +1,12 @@
-// MOVEMENT
+#region VARIABLES
 	move_speed = 2;
 	move_dir = 0;
 
 	xspeed = 0;
 	yspeed = 0;
+#endregion
 
-// SPRITE CONTROL
+#region SPRITE CONTROL
 	center_y_offset = -6;
 	center_y = y + center_y_offset; // set in step event
 	
@@ -20,7 +21,9 @@
 		sPlayerLeft, 
 		sPlayerDown
 	];
+#endregion
 	
-// WEAPON DATA
-weapon = WeaponTypes.EnergyRifle;
-shoot_timer = 0;
+#region WEAPON
+	weapon = WeaponTypes.EnergyPistol;
+	shoot_timer = 0;
+#endregion

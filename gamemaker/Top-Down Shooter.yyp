@@ -31,6 +31,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"BulletModule","path":"scripts/BulletModule/BulletModule.yy",},},
     {"id":{"name":"WeaponModule","path":"scripts/WeaponModule/WeaponModule.yy",},},
+    {"id":{"name":"sEnergyPistol","path":"sprites/sEnergyPistol/sEnergyPistol.yy",},},
+    {"id":{"name":"sEnergyPistolBullet","path":"sprites/sEnergyPistolBullet/sEnergyPistolBullet.yy",},},
     {"id":{"name":"sEnergyRifle","path":"sprites/sEnergyRifle/sEnergyRifle.yy",},},
     {"id":{"name":"sEnergyRifleBullet","path":"sprites/sEnergyRifleBullet/sEnergyRifleBullet.yy",},},
     {"id":{"name":"sEntityWall","path":"sprites/sEntityWall/sEntityWall.yy",},},

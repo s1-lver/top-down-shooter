@@ -1,7 +1,8 @@
 #region CONSTANTS
 	global._BulletTypes = 
 	{
-		EnergyBullet : new Bullet(sEnergyRifleBullet, 5, 5)
+		EnergyBullet : new Bullet(sEnergyRifleBullet, 5, 5),
+		SmallEnergyBullet : new Bullet(sEnergyPistolBullet, 7, 2)
 	}
 	#macro BulletTypes global._BulletTypes
 #endregion
@@ -24,6 +25,8 @@ function spawn_bullet(_type, _xPos, _yPos, _dir) {
 		y = _yPos;
 		dir = _dir;
 		spd = _type.spd;
+		
+		sprite_index = _type.sprite;
 	}
 
 	return new_bullet;

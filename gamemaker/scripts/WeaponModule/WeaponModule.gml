@@ -1,13 +1,14 @@
 #region CONSTANTS
 	global._WeaponTypes =
 	{
-		EnergyRifle : new Weapon("Energy Rifle", sEnergyRifle, BulletTypes.EnergyBullet, 9)
+		EnergyRifle : new Weapon("Energy Rifle", sEnergyRifle, BulletTypes.EnergyBullet, 9),
+		EnergyPistol : new Weapon("Energy Pistol", sEnergyPistol, BulletTypes.SmallEnergyBullet, 18)
 	}
 	#macro WeaponTypes global._WeaponTypes
 #endregion
 
 #region CLASSES
-	function Weapon(_name, _sprite, _bulletType, _cooldown) constructor 
+	function Weapon(_name, _sprite, _bulletType, _cooldown, _shoot = function(_xPos, _yPos, _dir) { spawn_bullet(bullet_type, _xPos, _yPos, _dir); } ) constructor 
 	{
 		name = _name;
 		sprite = _sprite;
@@ -15,10 +16,8 @@
 		cooldown = _cooldown;
 	
 		length = sprite_get_bbox_right(sprite) - sprite_get_xoffset(sprite);
-	
-		static shoot = function(_xPos, _yPos, _dir) {
-			spawn_bullet(bullet_type, _xPos, _yPos, _dir);
-		}
+		
+		shoot = _shoot;
 	}
 #endregion
 
