@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oProjectileWall",
-  "eventList":[],
+  "%Name":"oDamageEnemy",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oProjectileWall",
+  "name":"oDamageEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Environment.yy",
+    "name":"Damage",
+    "path":"folders/Damage.yy",
   },
   "parentObjectId":{
-    "name":"oEntityWall",
-    "path":"objects/oEntityWall/oEntityWall.yy",
+    "name":"oDamageParent",
+    "path":"objects/oDamageParent/oDamageParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sProjectileWall",
-    "path":"sprites/sProjectileWall/sProjectileWall.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

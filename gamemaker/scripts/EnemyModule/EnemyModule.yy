@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"EnemyModule",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EnemyModule",
+  "parent":{
+    "name":"Enemies",
+    "path":"folders/Enemies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

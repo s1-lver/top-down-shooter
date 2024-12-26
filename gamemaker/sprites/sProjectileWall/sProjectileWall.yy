@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Top-Down Shooter",
-    "path":"Top-Down Shooter.yyp",
+    "name":"Sprites",
+    "path":"folders/Environment/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

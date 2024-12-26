@@ -6,8 +6,8 @@
   "name":"oEntityWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Top-Down Shooter",
-    "path":"Top-Down Shooter.yyp",
+    "name":"Environment",
+    "path":"folders/Environment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
